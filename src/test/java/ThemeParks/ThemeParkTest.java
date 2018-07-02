@@ -25,9 +25,22 @@ public class ThemeParkTest {
         assertEquals(0, themePark.numberOfAttractions());
     }
 
+    @Test
+    public void stallsArrayListStartsEmpty() {
+        assertEquals(0, themePark.numberOfStalls());
+    }
 
+    @Test
+    public void canAddAttraction() {
+        themePark.addAttraction(dodgems);
+        assertEquals(1, themePark.numberOfAttractions());
+    }
 
-
+    @Test
+    public void canAddStall() {
+        themePark.addStall(tobaccoStall);
+        assertEquals(1, themePark.numberOfStalls());
+    }
 
 
 
