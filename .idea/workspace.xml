@@ -149,6 +149,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RollerCoaster</find>
+      <find>rollerCoaster</find>
+      <find>dodgem</find>
+      <find>Dodgems</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -584,7 +592,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlaygroundTest">
+  <component name="RunManager" selected="JUnit.ParkTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -600,6 +608,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Attractions.AttractionTypes" />
       <option name="MAIN_CLASS_NAME" value="Attractions.AttractionTypes.DodgemsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="themeParkHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Attractions.AttractionTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Attractions.AttractionTypes" />
+      <option name="MAIN_CLASS_NAME" value="Attractions.AttractionTypes.ParkTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -647,29 +678,6 @@
       <option name="PACKAGE_NAME" value="Attractions.AttractionTypes" />
       <option name="MAIN_CLASS_NAME" value="Attractions.AttractionTypes.RollerCoasterTest" />
       <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="VisitorTest.hasHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="themeParkHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Visitors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Visitors" />
-      <option name="MAIN_CLASS_NAME" value="Visitors.VisitorTest" />
-      <option name="METHOD_NAME" value="hasHeight" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -742,19 +750,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.VisitorTest.hasHeight" />
       <item itemvalue="JUnit.VisitorTest.hasMoney" />
       <item itemvalue="JUnit.RollerCoasterTest.hasName" />
       <item itemvalue="JUnit.DodgemsTest" />
       <item itemvalue="JUnit.PlaygroundTest" />
+      <item itemvalue="JUnit.ParkTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkTest" />
         <item itemvalue="JUnit.PlaygroundTest" />
         <item itemvalue="JUnit.DodgemsTest" />
         <item itemvalue="JUnit.RollerCoasterTest.hasName" />
         <item itemvalue="JUnit.VisitorTest.hasMoney" />
-        <item itemvalue="JUnit.VisitorTest.hasHeight" />
       </list>
     </recent_temporary>
   </component>
