@@ -19,4 +19,9 @@ public class PlaygroundTest {
         assertEquals("District 9", playground.getName());
     }
 
+    @Test
+    public void hasMaxAge() {
+        assertEquals(16, playground.hasMaxAge());
+    }
+
 }
