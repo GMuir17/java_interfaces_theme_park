@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e19b23-8c2b-4b26-8d0f-a051835d853d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IReviewed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/ISecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/ITicketed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java" afterDir="false" />
     </list>
@@ -51,12 +47,10 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
-                  <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+                  <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
                   <folding>
                     <element signature="e#357#358#0" expanded="true" />
                     <element signature="e#383#384#0" expanded="true" />
-                    <element signature="e#445#446#0" expanded="true" />
-                    <element signature="e#471#472#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,15 +72,14 @@
           <file leaf-file-name="PlaygroundTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+                <state relative-caret-position="316">
+                  <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
                   <folding>
-                    <element signature="e#239#240#0" expanded="true" />
-                    <element signature="e#296#297#0" expanded="true" />
                     <element signature="e#335#336#0" expanded="true" />
                     <element signature="e#399#400#0" expanded="true" />
                     <element signature="e#444#445#0" expanded="true" />
                     <element signature="e#474#475#0" expanded="true" />
+                    <element signature="e#704#705#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -450,8 +443,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/ITicketed.java" />
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/ISecurity.java" />
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/IReviewed.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java" />
       </list>
     </option>
   </component>
@@ -591,9 +584,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlaygroundTest.hasMaxAge">
+  <component name="RunManager" selected="JUnit.PlaygroundTest.canCheckAgeUnderAge">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="PlaygroundTest.canCheckAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="themeParkHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThemeParks.Attractions.AttractionTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ThemeParks.Attractions.AttractionTypes" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.PlaygroundTest" />
+      <option name="METHOD_NAME" value="canCheckAge" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PlaygroundTest.canCheckAgeOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="themeParkHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThemeParks.Attractions.AttractionTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ThemeParks.Attractions.AttractionTypes" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.PlaygroundTest" />
+      <option name="METHOD_NAME" value="canCheckAgeOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PlaygroundTest.canCheckAgeOverAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="themeParkHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThemeParks.Attractions.AttractionTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ThemeParks.Attractions.AttractionTypes" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.PlaygroundTest" />
+      <option name="METHOD_NAME" value="canCheckAgeOverAge" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PlaygroundTest.canCheckAgeUnderAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="themeParkHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThemeParks.Attractions.AttractionTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ThemeParks.Attractions.AttractionTypes" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.PlaygroundTest" />
+      <option name="METHOD_NAME" value="canCheckAgeUnderAge" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="PlaygroundTest.hasMaxAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="themeParkHomework_test" />
@@ -608,98 +693,6 @@
       <option name="PACKAGE_NAME" value="ThemeParks.Attractions.AttractionTypes" />
       <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.PlaygroundTest" />
       <option name="METHOD_NAME" value="hasMaxAge" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ThemeParkTest.attractionsArrayListStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="themeParkHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThemeParks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThemeParks" />
-      <option name="MAIN_CLASS_NAME" value="ThemeParks.ThemeParkTest" />
-      <option name="METHOD_NAME" value="attractionsArrayListStartsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ThemeParkTest.canAddAttraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="themeParkHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThemeParks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThemeParks" />
-      <option name="MAIN_CLASS_NAME" value="ThemeParks.ThemeParkTest" />
-      <option name="METHOD_NAME" value="canAddAttraction" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ThemeParkTest.canAddStall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="themeParkHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThemeParks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThemeParks" />
-      <option name="MAIN_CLASS_NAME" value="ThemeParks.ThemeParkTest" />
-      <option name="METHOD_NAME" value="canAddStall" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ThemeParkTest.stallsArrayListStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="themeParkHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThemeParks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThemeParks" />
-      <option name="MAIN_CLASS_NAME" value="ThemeParks.ThemeParkTest" />
-      <option name="METHOD_NAME" value="stallsArrayListStartsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -749,19 +742,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ThemeParkTest.attractionsArrayListStartsEmpty" />
-      <item itemvalue="JUnit.ThemeParkTest.stallsArrayListStartsEmpty" />
-      <item itemvalue="JUnit.ThemeParkTest.canAddAttraction" />
-      <item itemvalue="JUnit.ThemeParkTest.canAddStall" />
       <item itemvalue="JUnit.PlaygroundTest.hasMaxAge" />
+      <item itemvalue="JUnit.PlaygroundTest.canCheckAge" />
+      <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOk" />
+      <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOverAge" />
+      <item itemvalue="JUnit.PlaygroundTest.canCheckAgeUnderAge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaygroundTest.canCheckAgeUnderAge" />
+        <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOverAge" />
+        <item itemvalue="JUnit.PlaygroundTest.canCheckAge" />
+        <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOk" />
         <item itemvalue="JUnit.PlaygroundTest.hasMaxAge" />
-        <item itemvalue="JUnit.ThemeParkTest.canAddStall" />
-        <item itemvalue="JUnit.ThemeParkTest.canAddAttraction" />
-        <item itemvalue="JUnit.ThemeParkTest.stallsArrayListStartsEmpty" />
-        <item itemvalue="JUnit.ThemeParkTest.attractionsArrayListStartsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -779,24 +772,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkTest - 2018.07.02 at 16h 13m 46s.xml">
-      <configuration name="ParkTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IceCreamStallTest - 2018.07.02 at 16h 24m 11s.xml">
-      <configuration name="IceCreamStallTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IceCreamStallTest - 2018.07.02 at 16h 25m 08s.xml">
-      <configuration name="IceCreamStallTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CandyFlossStallTest - 2018.07.02 at 16h 26m 52s.xml">
-      <configuration name="CandyFlossStallTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TobaccoStallTest - 2018.07.02 at 16h 28m 04s.xml">
-      <configuration name="TobaccoStallTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_themeParkHomework_test - 2018.07.02 at 17h 09m 11s.xml">
-      <configuration name="All in themeParkHomework_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThemeParkTest_attractionsArrayListStartsEmpty - 2018.07.02 at 17h 18m 21s.xml">
       <configuration name="ThemeParkTest.attractionsArrayListStartsEmpty" configurationId="JUnit" />
     </history-entry>
@@ -808,6 +783,24 @@
     </history-entry>
     <history-entry file="ThemeParkTest_canAddStall - 2018.07.02 at 17h 22m 53s.xml">
       <configuration name="ThemeParkTest.canAddStall" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_hasMaxAge - 2018.07.02 at 20h 07m 41s.xml">
+      <configuration name="PlaygroundTest.hasMaxAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAge - 2018.07.02 at 20h 12m 27s.xml">
+      <configuration name="PlaygroundTest.canCheckAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeOk - 2018.07.02 at 20h 12m 54s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeOk - 2018.07.02 at 20h 14m 17s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeOk - 2018.07.02 at 20h 14m 28s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAge - 2018.07.02 at 20h 16m 15s.xml">
+      <configuration name="PlaygroundTest.canCheckAge" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -822,12 +815,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -940,6 +933,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,27 +1172,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="316">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
           </folding>
         </state>
       </provider>
