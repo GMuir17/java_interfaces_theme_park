@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e19b23-8c2b-4b26-8d0f-a051835d853d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/RollerCoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/RollerCoasterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,14 +43,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Playground.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Playground.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+                <state relative-caret-position="225">
+                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                   <folding>
                     <element signature="e#357#358#0" expanded="true" />
                     <element signature="e#383#384#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RollerCoaster.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/RollerCoaster.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -69,17 +81,36 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PlaygroundTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PlaygroundTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+                <state relative-caret-position="150">
+                  <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="18" selection-end-column="47" />
                   <folding>
                     <element signature="e#335#336#0" expanded="true" />
                     <element signature="e#399#400#0" expanded="true" />
                     <element signature="e#444#445#0" expanded="true" />
                     <element signature="e#474#475#0" expanded="true" />
                     <element signature="e#704#705#0" expanded="true" />
+                    <element signature="e#772#773#0" expanded="true" />
+                    <element signature="e#834#835#0" expanded="true" />
+                    <element signature="e#864#865#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RollerCoasterTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/RollerCoasterTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#355#356#0" expanded="true" />
+                    <element signature="e#427#428#0" expanded="true" />
+                    <element signature="e#472#473#0" expanded="true" />
+                    <element signature="e#502#503#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -445,6 +476,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/IReviewed.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java" />
         <option value="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/RollerCoaster.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/RollerCoasterTest.java" />
       </list>
     </option>
   </component>
@@ -584,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlaygroundTest.canCheckAgeUnderAge">
+  <component name="RunManager" selected="JUnit.RollerCoasterTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -680,7 +713,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PlaygroundTest.hasMaxAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RollerCoasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="themeParkHomework_test" />
       <extension name="coverage">
         <pattern>
@@ -691,9 +724,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ThemeParks.Attractions.AttractionTypes" />
-      <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.PlaygroundTest" />
-      <option name="METHOD_NAME" value="hasMaxAge" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.RollerCoasterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -742,19 +775,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PlaygroundTest.hasMaxAge" />
       <item itemvalue="JUnit.PlaygroundTest.canCheckAge" />
       <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOk" />
       <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOverAge" />
       <item itemvalue="JUnit.PlaygroundTest.canCheckAgeUnderAge" />
+      <item itemvalue="JUnit.RollerCoasterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RollerCoasterTest" />
         <item itemvalue="JUnit.PlaygroundTest.canCheckAgeUnderAge" />
         <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOverAge" />
         <item itemvalue="JUnit.PlaygroundTest.canCheckAge" />
         <item itemvalue="JUnit.PlaygroundTest.canCheckAgeOk" />
-        <item itemvalue="JUnit.PlaygroundTest.hasMaxAge" />
       </list>
     </recent_temporary>
   </component>
@@ -772,35 +805,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThemeParkTest_attractionsArrayListStartsEmpty - 2018.07.02 at 17h 18m 21s.xml">
-      <configuration name="ThemeParkTest.attractionsArrayListStartsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThemeParkTest_stallsArrayListStartsEmpty - 2018.07.02 at 17h 19m 42s.xml">
-      <configuration name="ThemeParkTest.stallsArrayListStartsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThemeParkTest_canAddAttraction - 2018.07.02 at 17h 21m 53s.xml">
-      <configuration name="ThemeParkTest.canAddAttraction" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThemeParkTest_canAddStall - 2018.07.02 at 17h 22m 53s.xml">
-      <configuration name="ThemeParkTest.canAddStall" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlaygroundTest_hasMaxAge - 2018.07.02 at 20h 07m 41s.xml">
-      <configuration name="PlaygroundTest.hasMaxAge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlaygroundTest_canCheckAge - 2018.07.02 at 20h 12m 27s.xml">
+    <history-entry file="PlaygroundTest_canCheckAge - 2018.07.02 at 20h 16m 41s.xml">
       <configuration name="PlaygroundTest.canCheckAge" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaygroundTest_canCheckAgeOk - 2018.07.02 at 20h 12m 54s.xml">
-      <configuration name="PlaygroundTest.canCheckAgeOk" configurationId="JUnit" />
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 17m 24s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaygroundTest_canCheckAgeOk - 2018.07.02 at 20h 14m 17s.xml">
-      <configuration name="PlaygroundTest.canCheckAgeOk" configurationId="JUnit" />
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 18m 15s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaygroundTest_canCheckAgeOk - 2018.07.02 at 20h 14m 28s.xml">
-      <configuration name="PlaygroundTest.canCheckAgeOk" configurationId="JUnit" />
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 18m 39s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaygroundTest_canCheckAge - 2018.07.02 at 20h 16m 15s.xml">
-      <configuration name="PlaygroundTest.canCheckAge" configurationId="JUnit" />
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 18m 49s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 19m 16s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 19m 25s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 19m 29s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeOverAge - 2018.07.02 at 20h 19m 43s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeOverAge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaygroundTest_canCheckAgeUnderAge - 2018.07.02 at 20h 19m 47s.xml">
+      <configuration name="PlaygroundTest.canCheckAgeUnderAge" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -815,12 +848,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -839,6 +872,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/Stall.java">
@@ -955,30 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/RollerCoaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/RollerCoasterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/Playground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
@@ -1180,16 +1194,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/Attractions/AttractionTypes/RollerCoaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/PlaygroundTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="e#335#336#0" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#474#475#0" expanded="true" />
             <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/Attractions/AttractionTypes/RollerCoasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
           </folding>
         </state>
       </provider>
