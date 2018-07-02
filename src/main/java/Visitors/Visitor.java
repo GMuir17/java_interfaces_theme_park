@@ -15,4 +15,14 @@ public class Visitor {
     public int getAge() {
         return this.age;
     }
+
+    public int getHeight() {
+        return this.height;
+    }
+
+
+
+
+
+
 }
