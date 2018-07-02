@@ -1,6 +1,9 @@
 package ThemeParks.Stalls;
 
-public class TobaccoStall extends Stall {
+import Behaviours.ISecurity;
+import Visitors.Visitor;
+
+public class TobaccoStall extends Stall implements ISecurity {
 
     private int minAge;
 
@@ -11,6 +14,15 @@ public class TobaccoStall extends Stall {
 
     public int getMinAge() {
         return this.minAge;
+    }
+
+    public boolean isAllowedTo(Visitor visitor) {
+        if (this.minAge < visitor.getAge()) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }
