@@ -11,7 +11,7 @@ public class DodgemsTest {
 
     @Before
     public void setUp() {
-        dodgem = new Dodgems("Meteor Cloud");
+        dodgem = new Dodgems("Meteor Cloud", 6);
     }
 
     @Test

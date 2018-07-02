@@ -8,8 +8,8 @@ public class Playground extends Attraction implements ISecurity {
 
     private int maxAge;
 
-    public Playground(String name) {
-        super(name);
+    public Playground(String name, int rating) {
+        super(name, rating);
         this.maxAge = 16;
     }
 

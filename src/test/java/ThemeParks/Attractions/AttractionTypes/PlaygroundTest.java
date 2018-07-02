@@ -14,7 +14,7 @@ public class PlaygroundTest {
 
     @Before
     public void setUp() {
-        playground = new Playground("District 9");
+        playground = new Playground("District 9", 8);
         visitor1 = new Visitor(15, 150, 12.00);
         visitor2 = new Visitor(18, 180, 12.00);
     }

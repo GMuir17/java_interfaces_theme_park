@@ -16,7 +16,7 @@ public class ThemeParkTest {
     @Before
     public void setUp() {
         themePark = new ThemePark();
-        dodgems = new Dodgems("Bulldozers");
+        dodgems = new Dodgems("Bulldozers", 5);
         tobaccoStall = new TobaccoStall("Smoke One The Water", "Jimi", 27);
     }
 
