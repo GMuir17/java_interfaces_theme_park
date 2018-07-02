@@ -5,6 +5,8 @@ import ThemeParks.Stalls.TobaccoStall;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class ThemeParkTest {
@@ -17,7 +19,7 @@ public class ThemeParkTest {
     public void setUp() {
         themePark = new ThemePark();
         dodgems = new Dodgems("Bulldozers", 5);
-        tobaccoStall = new TobaccoStall("Smoke One The Water", "Jimi", 27);
+        tobaccoStall = new TobaccoStall("Smoke One The Water", "Jimi", 27, 9);
     }
 
     @Test
@@ -42,6 +44,13 @@ public class ThemeParkTest {
         assertEquals(1, themePark.numberOfStalls());
     }
 
+    @Test
+    public void hasAllReviewed() {
+        themePark.addAttraction(dodgems);
+        themePark.addStall(tobaccoStall);
+        ArrayList reviewedList = themePark.getAllReviewed();
+        assertEquals(2, reviewedList.size());
+    }
 
 
 
