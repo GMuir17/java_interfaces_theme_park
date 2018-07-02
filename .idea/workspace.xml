@@ -629,32 +629,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RollerCoasterTest.isNotAllowedOnTooShort">
+  <component name="RunManager" selected="JUnit.TobaccoStallTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="PlaygroundTest.canCheckAgeUnderAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="themeParkHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThemeParks.Attractions.AttractionTypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ThemeParks.Attractions.AttractionTypes" />
-      <option name="MAIN_CLASS_NAME" value="ThemeParks.Attractions.AttractionTypes.PlaygroundTest" />
-      <option name="METHOD_NAME" value="canCheckAgeUnderAge" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="RollerCoasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="themeParkHomework_test" />
@@ -748,6 +725,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TobaccoStallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="themeParkHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThemeParks.Stalls.StallTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ThemeParks.Stalls.StallTypes" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParks.Stalls.StallTypes.TobaccoStallTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -787,19 +787,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PlaygroundTest.canCheckAgeUnderAge" />
       <item itemvalue="JUnit.RollerCoasterTest" />
       <item itemvalue="JUnit.RollerCoasterTest.isAllowedOn" />
       <item itemvalue="JUnit.RollerCoasterTest.isNotAllowedOnTooYoung" />
       <item itemvalue="JUnit.RollerCoasterTest.isNotAllowedOnTooShort" />
+      <item itemvalue="JUnit.TobaccoStallTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TobaccoStallTest" />
         <item itemvalue="JUnit.RollerCoasterTest.isNotAllowedOnTooShort" />
         <item itemvalue="JUnit.RollerCoasterTest.isNotAllowedOnTooYoung" />
         <item itemvalue="JUnit.RollerCoasterTest.isAllowedOn" />
         <item itemvalue="JUnit.RollerCoasterTest" />
-        <item itemvalue="JUnit.PlaygroundTest.canCheckAgeUnderAge" />
       </list>
     </recent_temporary>
   </component>

@@ -9,26 +9,30 @@ import static org.junit.Assert.assertEquals;
 
 public class TobaccoStallTest {
 
-    ThemeParks.Stalls.TobaccoStall TobaccoStall;
+    TobaccoStall tobaccoStall;
 
     @Before
     public void setUp() {
-        TobaccoStall = new TobaccoStall("Poky Hats", "Billy", 25);
+        tobaccoStall = new TobaccoStall("Poky Hats", "Billy", 25);
     }
 
     @Test
     public void hasName() {
-        Assert.assertEquals("Poky Hats", TobaccoStall.getName());
+        assertEquals("Poky Hats", tobaccoStall.getName());
     }
 
     @Test
     public void hasOwnerName() {
-        Assert.assertEquals("Billy", TobaccoStall.getOwnerName());
+        assertEquals("Billy", tobaccoStall.getOwnerName());
     }
 
     @Test
     public void hasParkingSpot() {
-        Assert.assertEquals(25, TobaccoStall.getParkingSpot());
+        assertEquals(25, tobaccoStall.getParkingSpot());
     }
 
+    @Test
+    public void hasMinAge() {
+        assertEquals(18, tobaccoStall.getMinAge());
+    }
 }
