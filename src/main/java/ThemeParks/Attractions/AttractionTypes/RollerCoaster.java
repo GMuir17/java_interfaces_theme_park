@@ -2,8 +2,9 @@ package ThemeParks.Attractions.AttractionTypes;
 
 import Behaviours.ISecurity;
 import ThemeParks.Attractions.Attraction;
+import Visitors.Visitor;
 
-public class RollerCoaster extends Attraction {
+public class RollerCoaster extends Attraction implements ISecurity {
 
     private int minAge;
     private int minHeight;
@@ -22,5 +23,31 @@ public class RollerCoaster extends Attraction {
         return this.minHeight;
     }
 
+    public boolean checkAge(Visitor visitor) {
+        if (this.minAge <= visitor.getAge()) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 
+    public boolean checkHeight(Visitor visitor) {
+        if (this.minHeight <= visitor.getHeight()) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean isAllowedTo(Visitor visitor) {
+        if (checkAge(visitor) && checkHeight(visitor)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }
