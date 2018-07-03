@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9e19b23-8c2b-4b26-8d0f-a051835d853d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ThemeParks/Attractions/Attraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ThemeParks/Attractions/Attraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/CandyFlossStall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/CandyFlossStall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/IceCreamStall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/IceCreamStall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/Stall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/Stall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/TobaccoStall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ThemeParks/Stalls/TobaccoStall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ThemeParks/Stalls/StallTypes/CandyFlossStallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ThemeParks/Stalls/StallTypes/CandyFlossStallTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ThemeParks/Stalls/StallTypes/IceCreamStallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ThemeParks/Stalls/StallTypes/IceCreamStallTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ThemeParks/Stalls/StallTypes/TobaccoStallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ThemeParks/Stalls/StallTypes/TobaccoStallTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ThemeParks/ThemeParkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ThemeParks/ThemeParkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/CandyFlossStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/CandyFlossStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/IceCreamStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/IceCreamStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/Stall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/TobaccoStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/Stalls/TobaccoStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemeParks/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemeParks/ThemePark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParks/Stalls/StallTypes/CandyFlossStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParks/Stalls/StallTypes/CandyFlossStallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParks/Stalls/StallTypes/IceCreamStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParks/Stalls/StallTypes/IceCreamStallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParks/Stalls/StallTypes/TobaccoStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParks/Stalls/StallTypes/TobaccoStallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParks/ThemeParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParks/ThemeParkTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a9e19b23-8c2b-4b26-8d0f-a051835d853d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -44,7 +24,7 @@
           <file leaf-file-name="ThemePark.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/ThemePark.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
+                <state relative-caret-position="286">
                   <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
                   <folding>
                     <element signature="e#476#477#0" expanded="true" />
@@ -65,7 +45,7 @@
           <file leaf-file-name="ThemeParkTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/ThemeParkTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
+                <state relative-caret-position="226">
                   <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
                 </state>
               </provider>
@@ -729,9 +709,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RollerCoasterTest_isNotAllowedOnTooShort - 2018.07.02 at 20h 31m 44s.xml">
-      <configuration name="RollerCoasterTest.isNotAllowedOnTooShort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RollerCoasterTest_isNotAllowedOnTooShort - 2018.07.02 at 20h 32m 26s.xml">
       <configuration name="RollerCoasterTest.isNotAllowedOnTooShort" configurationId="JUnit" />
     </history-entry>
@@ -759,10 +736,12 @@
     <history-entry file="CandyFlossStallTest - 2018.07.02 at 20h 57m 26s.xml">
       <configuration name="CandyFlossStallTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThemeParkTest_hasAllReviewed - 2018.07.02 at 21h 04m 54s.xml">
+      <configuration name="ThemeParkTest.hasAllReviewed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -774,10 +753,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1139,7 +1118,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ThemeParks/ThemePark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="286">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding>
             <element signature="e#476#477#0" expanded="true" />
@@ -1154,7 +1133,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParks/ThemeParkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="226">
           <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
         </state>
       </provider>

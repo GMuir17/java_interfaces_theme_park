@@ -19,7 +19,7 @@ public class ThemeParkTest {
     public void setUp() {
         themePark = new ThemePark();
         dodgems = new Dodgems("Bulldozers", 5);
-        tobaccoStall = new TobaccoStall("Smoke One The Water", "Jimi", 27, 9);
+        tobaccoStall = new TobaccoStall("Smoke On The Water", "Jimi", 27, 9);
     }
 
     @Test
